@@ -1,10 +1,10 @@
-# DES | Power BI
+# Amazon Sales Performance Dashboard | Power BI
 
 ## 📌 Project Overview
 
 This project presents an interactive Amazon Sales Performance Dashboard developed using Microsoft Power BI. It analyzes sales revenue, orders, customer ratings, quantity sold, regional performance, product categories, and payment methods.
 
-The dashboard transforms e-commerce sales data into visual insights through KPI cards, trend analysis, comparative charts, and interactive slicers.
+The dashboard transforms e-commerce sales data into meaningful business insights through KPI cards, trend analysis, comparative charts, and interactive slicers.
 
 ## 🎯 Project Objectives
 
@@ -13,21 +13,21 @@ The dashboard transforms e-commerce sales data into visual insights through KPI 
 - Compare revenue contribution across customer regions.
 - Evaluate revenue by product category and payment method.
 - Explore sales data using interactive filters.
-- Present business performance through an interactive dashboard.
+- Present sales performance through an interactive dashboard.
 
 ## 🛠️ Tools & Technologies
 
 - **Microsoft Power BI** — Dashboard development and reporting
 - **Power Query** — Data preparation and transformation
-- **Data Modeling** — Organizing data for analysis
-- **Data Visualization** — KPI cards, line charts, donut charts, and column charts
-- **Excel** — Source dataset
+- **DAX** — KPI calculations and analytical measures
+- **Microsoft Excel** — Source dataset
+- **Data Visualization** — Charts, KPI cards, and interactive reports
 
 ## 📊 Dashboard Features
 
 ### 1. Key Performance Indicators (KPIs)
 
-- Total Revenue
+- Revenue
 - Orders
 - Ratings
 - Quantity Sold
@@ -39,11 +39,11 @@ A monthly revenue trend visualization to explore changes in sales performance th
 
 ### 3. Regional Revenue Contribution
 
-A donut chart comparing the revenue contribution of customer regions.
+A donut chart comparing the revenue contribution of different customer regions.
 
 ### 4. Revenue by Region & Payment Method
 
-A clustered column chart comparing revenue across regions and payment methods.
+A clustered column chart comparing revenue across customer regions and payment methods.
 
 ### 5. Revenue by Product Category & Payment Method
 
@@ -51,7 +51,11 @@ A stacked column chart analyzing revenue across product categories and payment m
 
 ### 6. Sales Performance Details
 
-A detailed table displaying month, product category, quantity sold, and revenue.
+A detailed table displaying:
+- Month
+- Product Category
+- Quantity Sold
+- Revenue
 
 ### 7. Interactive Slicers
 
@@ -60,9 +64,9 @@ A detailed table displaying month, product category, quantity sold, and revenue.
 
 ## 📂 Dataset Information
 
-The project dataset contains 50,000 records and 13 columns, covering the period from January 2022 to December 2023.
+The dataset contains **50,000 rows** and includes 13 columns covering order details, product information, pricing, customer regions, payment methods, ratings, and revenue.
 
-Key fields include:
+### Key Columns
 
 - `order_id`
 - `order_date`
@@ -80,9 +84,9 @@ Key fields include:
 
 ## 📈 Analysis Areas
 
-- Revenue and order performance
+- Overall revenue and order performance
 - Monthly revenue trends
-- Regional revenue distribution
+- Regional revenue contribution
 - Product category performance
 - Payment method comparisons
 - Quantity sold and customer ratings
@@ -94,19 +98,20 @@ Key fields include:
 
 ## 🚀 How to Use
 
-1. Download the Power BI dashboard file from this repository.
-2. Download the source dataset if it is stored separately in the repository.
-3. Open the `.pbix` file using Microsoft Power BI Desktop.
-4. If required, update the dataset source path in Power Query.
-5. Refresh the data and explore the dashboard using the available slicers and visualizations.
+1. Download the `.pbix` dashboard file from this repository.
+2. Download the Excel dataset if it is stored separately in the repository.
+3. Open the dashboard in Microsoft Power BI Desktop.
+4. If prompted, update the dataset source path in Power Query.
+5. Refresh the data if required.
+6. Explore the dashboard using the available slicers and visualizations.
 
 ## 💡 Skills Demonstrated
 
 - Power BI dashboard development
 - Data preparation and transformation
-- KPI reporting
+- DAX and KPI reporting
 - Sales trend analysis
-- Regional and category-level analysis
+- Regional and product category analysis
 - Interactive data visualization
 - Business intelligence reporting
 
