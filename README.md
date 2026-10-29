@@ -119,4 +119,3 @@ The dataset contains **50,000 rows** and includes 13 columns covering order deta
 
 **Harsh Modhiya**
 
-Aspiring Data Analyst | Power BI | SQL | Python | Excel
