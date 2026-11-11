@@ -115,7 +115,4 @@ The dataset contains **50,000 rows** and includes 13 columns covering order deta
 - Interactive data visualization
 - Business intelligence reporting
 
-## 👨‍💻 Author
-
-**Harsh Modhiya**
 
