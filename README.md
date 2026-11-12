@@ -93,8 +93,10 @@ The dataset contains **50,000 rows** and includes 13 columns covering order deta
 
 ## 📁 Project Files
 
-- `AMAZON SALES REPORT.pbix` — Power BI dashboard file
-- `Amazon_sales_dataset.xlsx` — Source dataset
+- `AMAZON SALES REPORT.pbix` — Master Power BI desktop application file housing the dashboard.
+- `Amazon_sales_dataset.csv` — Source dataset containing 50,000 e-commerce order, regional, and revenue records.
+- `AMAZON SALES DASHBOARD.png` — Preview screenshot of the executive Power BI dashboard.
+
 
 ## 🚀 How to Use
 
